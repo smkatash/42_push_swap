@@ -33,7 +33,7 @@ differ.
 
 ```bash
 # Clone this project
-$ git clone https://github.com/smkatash/push_swap
+$ git clone https://github.com/smkatash/42_push_swap
 
 # Access
 $ cd push_swap
@@ -50,7 +50,7 @@ $ ./push_swap 8 6 2 4
 
 ```bash
 # Clone this project
-$ git clone https://github.com/anolivei/Push_swap42
+$ git clone https://github.com/smkatash/42_push_swap
 
 # Access
 $ cd push_swap
