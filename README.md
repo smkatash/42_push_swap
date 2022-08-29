@@ -68,7 +68,7 @@ $ ./checker 8 6 2 4
 $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 ```
 
-![Screen_Recording_2022-08-29_at_1_49_12_PM_AdobeExpress](https://user-images.githubusercontent.com/76934648/187195110-9d8b9e90-1883-42c8-b65a-e0e29c415682.gif)
+![Screen_Recording_2022-08-29_at_1_49_12_PM_AdobeExpress]<img src="[/images/output/video1.gif](https://user-images.githubusercontent.com/76934648/187195110-9d8b9e90-1883-42c8-b65a-e0e29c415682.gif)" width="250" height="250"/>
 
 
 Summary: 
