@@ -74,4 +74,4 @@ Summary:
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
 
 
-<img width="276" alt="image" src="https://user-images.githubusercontent.com/76934648/187190669-d7f2775d-bf3f-4c50-90be-1ba5b3538ae7.png">
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/76934648/187213469-b95fac22-2cff-449a-afd4-479b6fcf353d.png">
