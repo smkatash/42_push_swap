@@ -68,8 +68,7 @@ $ ./checker 8 6 2 4
 $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 ```
 
-![Screen_Recording_2022-08-29_at_1_49_12_PM_AdobeExpress](https://user-images.githubusercontent.com/76934648/187195387-b1c6f26f-98e8-46a6-a735-b10b1eb1b9e3.gif =250x250)
-
+<img src="[/images/output/video1.gif](https://user-images.githubusercontent.com/76934648/187195387-b1c6f26f-98e8-46a6-a735-b10b1eb1b9e3.gif)" width="250" height="250"/>
 
 Summary: 
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
