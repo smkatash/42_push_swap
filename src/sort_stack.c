@@ -1,26 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.c                                        :+:      :+:    :+:   */
+/*   sort_stack.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/25 07:25:44 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 14:20:44 by ktashbae         ###   ########.fr       */
+/*   Created: 2022/05/25 20:09:11 by ktashbae          #+#    #+#             */
+/*   Updated: 2022/08/29 15:24:48 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
-int	main(int argc, char **argv)
+void	sort_and_merge(t_form *stack)
 {
-	t_form	*stack;
+	t_form	*a;
+	t_form	*b;
 
-	if (argc < 2)
-		exit(0);
-	stack = get_input(&argv[1]);
-	sort_and_index(stack);
-	sort_and_merge(stack);
-	free_form(stack);
-	return (0);
+	if (sorted_stack(stack) == 0 || stack->top <= 0)
+		return ;
+	a = stack;
+	b = stack_init(a->size);
+	if (a->top < SIMPLE)
+		sort_simple(a, b);
+	else
+		sort_advanced(a, b);
+	free_form(b);
 }

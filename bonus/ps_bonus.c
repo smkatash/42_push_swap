@@ -6,12 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/03 06:24:23 by kanykei           #+#    #+#             */
-/*   Updated: 2022/06/05 15:22:55 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:18:59 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap_bonus.h"
-#include <stdio.h>
+#include "../include/push_swap_bonus.h"
 
 int	main(int argc, char **argv)
 {

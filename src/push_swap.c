@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap_bonus.h                                  :+:      :+:    :+:   */
+/*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/03 06:25:22 by kanykei           #+#    #+#             */
-/*   Updated: 2022/06/05 15:05:27 by ktashbae         ###   ########.fr       */
+/*   Created: 2022/05/25 07:25:44 by ktashbae          #+#    #+#             */
+/*   Updated: 2022/08/29 15:24:33 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_BONUS_H
-# define PUSH_SWAP_BONUS_H
+#include "../include/push_swap.h"
 
-# include "../libft/libft.h"
-# include "../gnL/get_next_line.h"
-# include "../push_swap.h"
+int	main(int argc, char **argv)
+{
+	t_form	*stack;
 
-void	get_commands(t_form *a, t_form *b);
-void	command_checker(char *command, t_form *a, t_form *b);
-
-#endif
+	if (argc < 2)
+		exit(0);
+	stack = get_input(&argv[1]);
+	sort_and_index(stack);
+	sort_and_merge(stack);
+	free_form(stack);
+	return (0);
+}

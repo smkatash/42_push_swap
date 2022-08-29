@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 20:17:10 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:12:38 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:45 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 void	shuffle_and_sort(t_form *a)
 {

@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 08:11:18 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:11:15 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:20 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 void	ft_error(char *message)
 {

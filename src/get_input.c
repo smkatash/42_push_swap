@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:42:23 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:02:34 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:17 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 int	check_int(char *src)
 {

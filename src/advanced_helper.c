@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 17:22:54 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:11:22 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:10 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 static int	scan_to_zero(t_form *stack, int max, int min)
 {

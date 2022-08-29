@@ -6,17 +6,17 @@
 #    By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/23 13:39:59 by ktashbae          #+#    #+#              #
-#    Updated: 2022/06/05 14:42:11 by ktashbae         ###   ########.fr        #
+#    Updated: 2022/08/29 15:26:38 by ktashbae         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME := push_swap
 BONUS := checker
 
-SRC := ps/push_swap.c \
+SRC := src/push_swap.c \
 
-PSRC := ps/get_input.c ps/index_stack.c ps/search.c ps/sort_simple.c \
-ps/commands.c ps/ps_utils.c ps/sort_stack.c ps/sort_advanced.c ps/advanced_helper.c ps/helper.c \
+PSRC := src/get_input.c src/index_stack.c src/search.c src/sort_simple.c \
+src/commands.c src/ps_utils.c src/sort_stack.c src/sort_advanced.c src/advanced_helper.c src/helper.c \
 
 BNSRC := bonus/ps_bonus.c bonus/ps_utils_bonus.c \
 
@@ -41,8 +41,8 @@ BNSOBJ := ${BNSRC:%.c=%.o}
 GNLOBJ := ${GNLSRC:%.c=%.o}
 CC := cc
 CFLAGS := -Wall -Wextra -Werror
-HEADER := push_swap.h
-BNSHEADER := bonus/push_swap_bonus.h
+HEADER := include/push_swap.h
+BNSHEADER := include/push_swap_bonus.h
 RM := rm -f
 
 all: ${NAME}

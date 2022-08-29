@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 14:41:10 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/05/26 16:25:22 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:21:47 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libft.h"
 
 static char	*ft_isspace(char *p)
 {

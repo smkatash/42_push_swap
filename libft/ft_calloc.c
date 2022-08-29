@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 15:25:10 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/04/21 11:13:57 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:21:59 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libft.h"
 
 void	*ft_calloc(size_t count, size_t size)
 {

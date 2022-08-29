@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 15:56:19 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:11:12 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:26 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 static void	insertion_sort(int *stack, unsigned int size)
 {

@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 07:25:50 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:08:14 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:22 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 t_form	*stack_init(unsigned int size)
 {

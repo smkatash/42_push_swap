@@ -6,14 +6,14 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 07:25:59 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 14:31:47 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:20:55 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "libft/libft.h"
+# include "libft.h"
 # include <unistd.h>
 # include <limits.h>
 # include <string.h>

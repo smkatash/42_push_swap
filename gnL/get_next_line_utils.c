@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/05 15:11:24 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 15:11:43 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:20:09 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../include/get_next_line.h"
 
 char	*ft_strchr_gnl(char *s, int c)
 {

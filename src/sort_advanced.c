@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 17:24:28 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:11:58 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:24:42 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#include "../include/push_swap.h"
 
 void	split_and_shuffle(t_form *stack, char *s, int num)
 {

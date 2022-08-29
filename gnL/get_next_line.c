@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/05 15:12:34 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 15:12:46 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:20:07 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../include/get_next_line.h"
 
 static char	*ft_update_text(char *src)
 {

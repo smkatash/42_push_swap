@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 11:52:31 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/04/26 18:27:33 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:23:03 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libft.h"
 
 int	ft_letter_count(int i, char const *s, char c)
 {

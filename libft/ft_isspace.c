@@ -6,11 +6,11 @@
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 08:14:18 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/05/26 16:25:33 by ktashbae         ###   ########.fr       */
+/*   Updated: 2022/08/29 15:22:22 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libft.h"
 
 int	ft_isspace_p(int c)
 {

@@ -1,29 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort_stack.c                                       :+:      :+:    :+:   */
+/*   push_swap_bonus.h                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ktashbae <ktashbae@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/25 20:09:11 by ktashbae          #+#    #+#             */
-/*   Updated: 2022/06/05 12:10:52 by ktashbae         ###   ########.fr       */
+/*   Created: 2022/06/03 06:25:22 by kanykei           #+#    #+#             */
+/*   Updated: 2022/08/29 15:20:41 by ktashbae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../push_swap.h"
+#ifndef PUSH_SWAP_BONUS_H
+# define PUSH_SWAP_BONUS_H
 
-void	sort_and_merge(t_form *stack)
-{
-	t_form	*a;
-	t_form	*b;
+# include "libft.h"
+# include "get_next_line.h"
+# include "push_swap.h"
 
-	if (sorted_stack(stack) == 0 || stack->top <= 0)
-		return ;
-	a = stack;
-	b = stack_init(a->size);
-	if (a->top < SIMPLE)
-		sort_simple(a, b);
-	else
-		sort_advanced(a, b);
-	free_form(b);
-}
+void	get_commands(t_form *a, t_form *b);
+void	command_checker(char *command, t_form *a, t_form *b);
+
+#endif
