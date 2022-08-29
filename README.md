@@ -3,6 +3,8 @@
 Writing a sorting algorithm is always a very important step in a developer’s journey. It
 is often the first encounter with the concept of complexity.
 
+<img width="100" alt="image" src="https://user-images.githubusercontent.com/76934648/187213469-b95fac22-2cff-449a-afd4-479b6fcf353d.png">
+
 The learning objectives of this project are rigor, use of C, and use of basic algorithms.
 Especially focusing on their complexity.
 Sorting values is simple. To sort them the fastest way possible is less simple. Especially
@@ -72,5 +74,3 @@ $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 Summary: 
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
 
-
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/76934648/187213469-b95fac22-2cff-449a-afd4-479b6fcf353d.png">
