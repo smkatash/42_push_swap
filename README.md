@@ -62,8 +62,7 @@ $ ./checker 8 6 2 4
 ```
 
 ## Testing ##
-
-# Combine checker and sorter -> OK if sorting is correct | KO otherwise
+# Combine checker and sorter 
 $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 
 ```
