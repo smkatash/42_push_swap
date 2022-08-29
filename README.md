@@ -27,6 +27,24 @@ differ.
 | `rrb` | reverse rotate B - shift down all elements of stack B by 1. The last element becomes the first one |
 | `rrr` | `rra` and `rrb` at the same time |
 
+## Running ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/smkatash/push_swap
+
+# Access
+$ cd push_swap
+
+# Compile the program
+$ make
+
+# Run the project
+$ ./push_swap 8 6 2 4
+
+```
+
+
 Summary: 
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
 
