@@ -67,8 +67,7 @@ $ ./checker 8 6 2 4
 ```bash
 $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 ```
-
-<img src="https://github.com/smkatash/push_swap/blob/main/ps_viz.gif" width="250" height="250"/>
+![Screen-Recording-2022-08-29-at-1](https://user-images.githubusercontent.com/76934648/187220666-43c72da8-86d4-41db-8dc2-f5025f152404.gif)
 
 Summary: 
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
