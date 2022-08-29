@@ -65,7 +65,6 @@ $ ./checker 8 6 2 4
 # Combine checker and sorter 
 $ ARG="50 -2 4 3 6"; ./push_swap $ARG | ./checker  $ARG
 
-```
 
 Summary: 
 This project is about sorting data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed it is necessary to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
